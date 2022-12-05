@@ -30,3 +30,10 @@ const teamList = [
         img : "barbara-ramos-graphic-designer.jpg"
     }
 ]
+
+
+    for ( let i=0; i<teamList.length; i++)
+{   
+    const teamListElement = teamList[i];
+    console.log(teamListElement.name, teamListElement.role, teamListElement.img)
+}
